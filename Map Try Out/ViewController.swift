@@ -27,6 +27,14 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
         var region:MKCoordinateRegion = MKCoordinateRegionMake(location, span)
         map.setRegion(region, animated: true)
+        
+        var annotation = MKPointAnnotation()
+        annotation.coordinate = location
+        
+        annotation.title = "Penang, Malaysia"
+        annotation.subtitle = "Where Am I now!"
+        
+        map.addAnnotation(annotation)
     }
 
     override func didReceiveMemoryWarning() {
