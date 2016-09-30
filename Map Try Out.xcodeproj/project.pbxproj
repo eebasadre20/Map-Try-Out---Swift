@@ -12,6 +12,7 @@
 		C90F75411D9BFEFC006A1817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90F753F1D9BFEFC006A1817 /* Main.storyboard */; };
 		C90F75431D9BFEFC006A1817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90F75421D9BFEFC006A1817 /* Assets.xcassets */; };
 		C90F75461D9BFEFC006A1817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C90F75441D9BFEFC006A1817 /* LaunchScreen.storyboard */; };
+		C94AF3C81D9E6B700072E6D4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94AF3C71D9E6B700072E6D4 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C90F75421D9BFEFC006A1817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C90F75451D9BFEFC006A1817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C90F75471D9BFEFC006A1817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C94AF3C71D9E6B700072E6D4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C94AF3C81D9E6B700072E6D4 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 		C90F752F1D9BFEFC006A1817 = {
 			isa = PBXGroup;
 			children = (
+				C94AF3C71D9E6B700072E6D4 /* CoreLocation.framework */,
 				C90F753A1D9BFEFC006A1817 /* Map Try Out */,
 				C90F75391D9BFEFC006A1817 /* Products */,
 			);
@@ -284,6 +288,7 @@
 				C90F754C1D9BFEFC006A1817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
